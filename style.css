@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-bottom: 60px; /* Add padding at the bottom to prevent content from being hidden behind the navbar */
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background-color: #333;
+    color: white;
+    justify-content: space-around;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better separation from content */
+}
+
+.navbar a {
+    flex: 1;
+    padding: 14px 0;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.navbar a.active {
+    background-color: #666;
+}
+
+#notificationTiles {
+    margin-top: 20px;
+}
+
+.notification-tile {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+    position: relative;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start slightly off-screen */
+    animation: fadeInUp 0.5s forwards; /* Apply animation */
+    transition: transform 0.3s, opacity 0.3s; /* Smooth transition for hover effects */
+}
+
+.notification-tile img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.notification-tile button {
+    background-color: transparent;
+    border: none;
+    color: #00f;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#refreshNotifications {
+    background-color: #4CAF50; /* Initial background color */
+    color: white; /* Initial text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for button */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block display */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#refreshNotifications:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.notification-tile:hover {
+    transform: scale(1.05); /* Slightly enlarge the tile on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
