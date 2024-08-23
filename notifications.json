@@ -1,16 +1,16 @@
-[
-    {
-        "title": "Notification 1",
-        "message": "This is the first notification.",
-        "icon": "https://example.com/icon1.png",
-        "image": "https://example.com/image1.jpg",
-        "phoneNumber": "+1234567890"
-    },
-    {
-        "title": "Notification 2",
-        "message": "This is the second notification.",
-        "icon": "https://example.com/icon2.png",
-        "image": "https://example.com/image2.jpg",
-        "phoneNumber": "+0987654321"
-    }
-]
+{
+    "notifications": [
+        {
+            "title": "Notification 1",
+            "message": "This is the first notification.",
+            "phoneNumber": "123-456-7890",
+            "image": "https://example.com/image1.jpg"
+        },
+        {
+            "title": "Notification 2",
+            "message": "This is the second notification.",
+            "phoneNumber": "098-765-4321",
+            "image": "https://example.com/image2.jpg"
+        }
+    ]
+}
