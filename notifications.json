@@ -9,13 +9,13 @@
             "title": "Notification 2",
             "message": "This is the second notification.",
             "phoneNumber": "098-765-4321",
-            "image": "https://example.com/image2.jpg"
+            "image": "https://example.com/image2.jpg",
         },
         {
             "title": "Notification 3",
             "message": "This is the third notification.",
             "phoneNumber": "098-765-4321",
-            "image": "https://example.com/image3.jpg"  
+            "image": "https://example.com/image3.jpg",  
         }
         {
             "title": "Packet Innovations",
@@ -26,13 +26,13 @@
             "title": "Notification 2",
             "message": "This is the second notification.",
             "phoneNumber": "098-765-4321",
-            "image": "https://example.com/image2.jpg"
+            "image": "https://example.com/image2.jpg",
         },
         {
             "title": "Notification 3",
             "message": "This is the third notification.",
             "phoneNumber": "098-765-4321",
-            "image": "https://example.com/image3.jpg"  
+            "image": "https://example.com/image3.jpg",  
         }
     ]
 }
