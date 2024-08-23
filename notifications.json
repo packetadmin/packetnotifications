@@ -1,7 +1,7 @@
 {
     "notifications": [
         {
-            "title": "Notification 2",
+            "title": "Kifule!",
             "message": "Check out our latest updates.",
             "phoneNumber": "098-765-4321",
             "image": "https://example.com/image2.jpg"
