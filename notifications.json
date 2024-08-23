@@ -2,37 +2,31 @@
     "notifications": [
         {
             "title": "Packet Innovations",
-            "message": "yo",
-            "phoneNumber": "boy",
+            "message": "New features available now!",
+            "phoneNumber": "123-456-7890",
+            "image": "https://example.com/image1.jpg"
         },
         {
             "title": "Notification 2",
-            "message": "This is the second notification.",
+            "message": "Check out our latest updates.",
             "phoneNumber": "098-765-4321",
-            "image": "https://example.com/image2.jpg",
+            "image": "https://example.com/image2.jpg"
         },
         {
             "title": "Notification 3",
-            "message": "This is the third notification.",
-            "phoneNumber": "098-765-4321",
-            "image": "https://example.com/image3.jpg",  
-        }
-        {
-            "title": "Packet Innovations",
-            "message": "yo",
-            "phoneNumber": "boy",
+            "message": "Special offer just for you!",
+            "phoneNumber": "345-678-9012"
         },
         {
-            "title": "Notification 2",
-            "message": "This is the second notification.",
-            "phoneNumber": "098-765-4321",
-            "image": "https://example.com/image2.jpg",
+            "title": "Notification 4",
+            "message": "Maintenance scheduled for tonight.",
+            "link": "https://example.com/maintenance-info"
         },
         {
-            "title": "Notification 3",
-            "message": "This is the third notification.",
-            "phoneNumber": "098-765-4321",
-            "image": "https://example.com/image3.jpg",  
+            "title": "Notification 5",
+            "message": "Join our webinar next week.",
+            "image": "https://example.com/image5.jpg",
+            "link": "https://example.com/webinar-info"
         }
     ]
 }
