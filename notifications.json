@@ -1,12 +1,6 @@
 {
     "notifications": [
         {
-            "title": "Packet Innovations",
-            "message": "New features available now!",
-            "phoneNumber": "123-456-7890",
-            "image": "https://example.com/image1.jpg"
-        },
-        {
             "title": "Notification 2",
             "message": "Check out our latest updates.",
             "phoneNumber": "098-765-4321",
