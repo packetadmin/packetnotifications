@@ -1,7 +1,7 @@
 {
     "notifications": [
         {
-            "title": "Notification 1",
+            "title": "Packet Innovations",
             "message": "This is the first notification.",
             "phoneNumber": "123-456-7890",
             "image": "https://example.com/image1.jpg"
