@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Home Content -->
+    <div id="home" class="content active">
+        <h2>Home</h2>
+        <p>Welcome to the home page!</p>
+    </div>
+
+    <!-- Notifications Content -->
+    <div id="notifications" class="content">
+        <h2>Notifications</h2>
+        <button id="refreshNotifications">What's New</button>
+        <div id="notificationTiles"></div>
+    </div>
+
+    <!-- Bottom Navigation Bar -->
+    <div class="navbar">
+        <a href="#" class="nav-link active" onclick="openSection('home')">Home</a>
+        <a href="#" class="nav-link" onclick="openSection('notifications')">Notifications</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
