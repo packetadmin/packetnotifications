@@ -1,26 +1,18 @@
 {
-    "notifications": [
+    "listings": [
         {
-            "title": "Kifule!",
-            "message": "Check out our latest updates.",
-            "phoneNumber": "098-765-4321",
-            "image": "https://example.com/image2.jpg"
+            "title": "Product 1",
+            "description": "This is a description for Product 1.",
+            "price": "$100",
+            "image": "https://example.com/image1.jpg",
+            "phoneNumber": "123456789"
         },
         {
-            "title": "Notification 3",
-            "message": "Special offer just for you!",
-            "phoneNumber": "345-678-9012"
-        },
-        {
-            "title": "Notification 4",
-            "message": "Maintenance scheduled for tonight.",
-            "link": "https://example.com/maintenance-info"
-        },
-        {
-            "title": "Notification 5",
-            "message": "Join our webinar next week.",
-            "image": "https://example.com/image5.jpg",
-            "link": "https://example.com/webinar-info"
+            "title": "Product 2",
+            "description": "This is a description for Product 2.",
+            "price": "$200",
+            "image": "https://example.com/image2.jpg",
+            "link": "https://example.com/product2"
         }
     ]
 }
